@@ -1,17 +1,15 @@
-(This template is based on the README.md file used by Phix and its own components. Edit / replace to suit).
-
-ComponentName
+coSimpleContentCleaner
 ==============
 
-**ComponentName** is a simple-to-use PHP component that provides ...?
+**coSimpleContentCleaner** is a simple-to-use PHP user imput sanitiser
 
 System-Wide Installation
 ------------------------
 
 ComponentName should be installed using the [PEAR Installer](http://pear.php.net). This installer is the PHP community's de-facto standard for installing PHP components.
 
-    sudo pear channel-discover <your pear channel>
-    sudo pear install --alldeps <your channel>/ComponentName
+    sudo pear channel-discover compermisos.github.com/pear
+    sudo pear install --alldeps coPear/coSimpleContentCleaner
 
 As A Dependency On Your Component
 ---------------------------------
